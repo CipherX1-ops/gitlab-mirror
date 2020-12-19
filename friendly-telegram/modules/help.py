@@ -33,16 +33,15 @@ class HelpMod(loader.Module):
                                      "and they can be run with <code>{}&lt;command&gt;</code>"),
                "single_cmd": "\n• <code><u>{}</u></code>\n",
                "undoc_cmd": "There is no documentation for this command",
-               "all_header": ("<b>Help for</b> <a href='https://t.me/friendlytgbot'>Friendly-Telegram</a>\n"
+               "all_header": ("<b>Help for</b> <a href='https://t.me/hackintush'>CɪᴘʜᴇʀX</a>\n"
                               "For more help on how to use a command, type <code>{}help &lt;module name&gt;</code>\n\n"
                               "<b>Available Modules:</b>"),
                "mod_tmpl": "\n• <b>{}</b>",
                "first_cmd_tmpl": ": <code>{}",
                "cmd_tmpl": ", {}",
-               "footer": ("\n\nYou can <b>read more</b> about most commands "
-                          "<a href='https://friendly-telegram.gitlab.io'>here</a>"),
-               "joined": "<b>Joined to</b> <a href='https://t.me/friendlytgbot'>support channel</a>",
-               "join": "<b>Join the</b> <a href='https://t.me/friendlytgbot'>support channel</a>"}
+               "footer": ("\n<a href='https://t.me/hackintush'>✨CɪᴘʜᴇʀX</a><b>is the best✨</b>\n"),
+               "joined": "<b>Joined to</b> <a href='https://t.me/FutureTechnologyOfficial'>support channel</a>",
+               "join": "<b>Join the</b> <a href='https://t.me/FutureTechnologyOfficial'>support channel</a>"}
 
     @loader.unrestricted
     async def helpcmd(self, message):
